@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Mate+SC&family=Protest+Revolution&display=swap');
+.container{
+    height: 25vh;
+    width: 100vw;
+    background-color: darkcyan;
+    background-position: 1500px;
+    background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.input{
+    height: 4vh;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid orangered;
+    text-align: center;
+    font-size: 16px;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+#mainHeading{
+    font-size: 30px;
+    font-family: 'Protest Revolution', sans-serif;
+    letter-spacing: 2px;
+    margin-left: 40%;
+    margin-bottom: 3%;
+}
+.label{
+    font-size: 18px;
+    font-family: monospace;
+    margin-left: 35%;
+} 
+#checkButton{
+    height: 4vh;
+    width: 6vw;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 1px black;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 1px;
+}
+#contentDiv{
+    height: 80vh;
+    width: 100vw;
+    background-color: darkcyan;
+    margin-top: 9vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    border-top: 1px solid black;
+}
+.leftContent{
+    height: 100%;
+    width: 40%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightContent{
+    height: 100%;
+    width: 60%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image{
+    height: 50vh;
+    width: 30vw;
+    border: 2px solid black;
+    border-radius: 0px 20px 0px 20px;
+    background-size: cover;
+}
+.productName{
+    font-size: 22px;
+    font-family: 'Cinzel', serif;
+    font-family: 'Mate SC', serif;
+    font-family: 'Protest Revolution', sans-serif;
+    letter-spacing: 3px;
+    color: orange;
+}
+.rightSubDiv{
+    height: 80%;
+    width: 90%;
+    background-color: transparent;
+    gap: 10px;
+}
+.subHeadings{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 7px;
+    letter-spacing: 1.5px;
+    margin-left: 25px;
+    color: black;
+}
+.contentFont{
+    font-size: 16px;
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: white;
+    margin-bottom: 45px;
+    margin-left: 50px;
+}
+#checkButton:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
